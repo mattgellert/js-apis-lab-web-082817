@@ -3,7 +3,16 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+  <h3>Create a Gist</h3>
+  <form id='createGists'>
+    Token: <br><input type='text' id='token'><br>
+    File Name: <br><input type='text' id='file_name'><br>
+    Description: <br><input type='text' id='description'><br>
+    Contents: <br><input type='text' id='contents'><br>
+    <input type='submit' value='Create and View All Public Gists'>
+  </form>
+  <h3>Gists<h3>
+  <div id='gists'></div>
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
 </body>
